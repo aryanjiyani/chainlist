@@ -65,6 +65,11 @@ export const extraRpcs = {
         trackingDetails: privacyStatement.omnia,
       },
       {
+        url: "https://endpoints.omniatech.io/v1/eth/sepolia/public",
+        tracking: "none",
+        trackingDetails: privacyStatement.flashbots,
+      },
+      {
         url: "https://rpc.ankr.com/eth",
         tracking: "limited",
         trackingDetails: privacyStatement.ankr,
